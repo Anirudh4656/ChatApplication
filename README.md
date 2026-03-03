@@ -1,6 +1,8 @@
 # 💬 Real-Time Chat Application – Frontend
 
+Modern, responsive frontend for a scalable real-time chat application built using **Next.js**, **Socket.IO**.
 
+This frontend connects to a distributed backend powered by RabbitMQ, Redis, and Dockerized microservices, delivering real-time messaging with OTP authentication and scalable infrastructure.
 [Backend_Url]()
 [Live_Link]()
 ---
@@ -25,8 +27,6 @@ The application supports:
 - 🌍 Production deployment ready
 
 ---
----
-
 
 ## ⚙️ Tech Stack
 
