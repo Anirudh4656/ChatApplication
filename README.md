@@ -4,7 +4,8 @@ Modern, responsive frontend for a scalable real-time chat application built usin
 
 This frontend connects to a distributed backend powered by RabbitMQ, Redis, and Dockerized microservices, delivering real-time messaging with OTP authentication and scalable infrastructure.
 [Backend_Url]()
-[Live_Link]()
+--
+[Live_Link](http://51.20.254.204:5001/)
 ---
 
 ## 🚀 Overview
