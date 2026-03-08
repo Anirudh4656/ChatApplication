@@ -3,9 +3,10 @@
 Modern, responsive frontend for a scalable real-time chat application built using **Next.js**, **Socket.IO**.
 
 This frontend connects to a distributed backend powered by RabbitMQ, Redis, and Dockerized microservices, delivering real-time messaging with OTP authentication and scalable infrastructure.
-[Backend_Url]()
 --
-[Live_Link](http://51.20.254.204:5001/)
+[Backend_Url](https://github.com/Anirudh4656/ChatApplicationBackend.git)
+--
+[Live_Link](http://16.16.68.127:3000/chat)
 ---
 
 ## 🚀 Overview
@@ -13,7 +14,7 @@ This frontend connects to a distributed backend powered by RabbitMQ, Redis, and 
 This project demonstrates how to build a production-ready real-time chat UI that integrates with a microservices backend.
 
 The application supports:
-
+![preview](./public/image.png)
 ---
 
 ## ✅ Features
