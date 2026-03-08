@@ -166,7 +166,7 @@ const ChatSidebar = ({
                         <UserCircle className="w-7 h-7 text-gray-300" />
                         {/* onlineuser ka work hai */}
                       </div>
-                      {onlineUsers.includes(chat.user._id) && (
+                      {onlineUsers.includes(chat.user?._id) && (
                         <span className="absolute -top-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-gray-900" />
                       )}
                     </div>
@@ -177,7 +177,7 @@ const ChatSidebar = ({
                             isSelected ? "text-white" : "text-gray-200"
                           }`}
                         >
-                          {chat.user.name}
+                          {chat.user?.name}
                         </span>
                         {unseenCount > 0 && (
                           <div className="bg-red-600 text-white text-xs font-bold rounded-full min-w-[22px] h-5.5 flex items-center justify-center px-2">

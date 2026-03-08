@@ -21,6 +21,7 @@ export interface Message {
     url: string;
     publicId: string;
   };
+  streaming:boolean;
   messageType: "text" | "image";
   seen: boolean;
   seenAt?: string;
